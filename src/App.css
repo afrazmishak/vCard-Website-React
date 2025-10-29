@@ -1,0 +1,299 @@
+.header-container{
+  background-color: rgba(122, 118, 118, 0.092);
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.dateandtime{
+  font-size: 15px;
+}
+
+.container{
+  display: flex;
+  background-color: rgba(122, 118, 118, 0.092);
+  flex: 1;
+}
+
+.container-left{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-left-image{
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.container-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head-logo{
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Afraz-Mishak-head-logo{
+  width: 96%;
+}
+
+.social-section{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 18px;
+  align-self: center;
+  margin-top: -10px;
+  padding-right: 30px;
+}
+
+.social-section-icons{
+  width: 36px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding-right: 15px;
+}
+
+.social-section-icons:hover{
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: all 0.3s ease;
+}
+
+.footer-name{
+  margin: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+  background-color: rgba(122, 118, 118, 0.092);
+}
+
+/* Small screens (phones) */
+@media (max-width: 595px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 90%;
+    height: 120%;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 596px) and (max-width: 700px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 90%;
+    height: 430px;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 90%;
+    height: 430px;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}

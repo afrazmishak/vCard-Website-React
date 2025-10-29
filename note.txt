@@ -1,0 +1,7 @@
+/* Prevent the entire page from scrolling. If you need internal scrollable areas,
+   make those elements overflow: auto individually. */
+/* html, body, #root {
+  height: 100%;
+  overflow: hidden; /* disables scrolling */
+  overscroll-behavior: none; */ /* prevent bounce/scroll chaining on supported browsers */
+}
