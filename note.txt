@@ -1,7 +1,225 @@
 /* Prevent the entire page from scrolling. If you need internal scrollable areas,
    make those elements overflow: auto individually. */
+   
 /* html, body, #root {
   height: 100%;
   overflow: hidden; /* disables scrolling */
   overscroll-behavior: none; */ /* prevent bounce/scroll chaining on supported browsers */
+}
+
+/* Small screens (phones) */
+@media (max-width: 595px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 90%;
+    height: 120%;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 596px) and (max-width: 700px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 90%;
+    height: 430px;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 90%;
+    height: 430px;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .header-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dateandtime{
+    font-size: 14px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .container-left-image{
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+  }
+
+  .container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Afraz-Mishak-head-logo{
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+
+  .footer-name{
+    font-size: 12px;
+  }
 }
